@@ -7,4 +7,4 @@ jobs:
       - name: Print greeting message
         run: echo 'Hello greetings'
       - name: Print second message 
-        run: echo'This is the second message, this is the second step of the first job'
+        run: echo 'This is the second message, this is the second step of the first job'
