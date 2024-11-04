@@ -1,5 +1,10 @@
 name: GitHub Actions Udemy course
 on: push
 jobs:
-    first-job:
-        runs-on: ubuntu-latest
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting message
+        run: echo 'Hello there, how are you'
+      - name: Print second message
+        run: echo 'This is the second message, checking that both steps are functional'
