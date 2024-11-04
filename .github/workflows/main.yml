@@ -7,4 +7,4 @@ jobs:
       - name: Print greeting message
         run: echo 'Hello there, how are you'
       - name: Print second message
-        run: echo 'This is the second message, checking that both steps are functional'
+        run: echo "${{ toJson(github) }}"  //accessingthe github object usin
